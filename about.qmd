@@ -1,0 +1,16 @@
+---
+title: "about me"
+about:
+  template: jolla
+  image: copy.png
+  image-shape: round
+  image-width: 10cm
+  links: 
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/eleonore.cbn/
+---
+
+University College London
+
+Student in Management Science

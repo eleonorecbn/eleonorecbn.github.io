@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+execute: 
+  freeze: true
+
+website:
+  title: "Eleonore Chamboredon"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: about
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/el%C3%A9onore-chamboredon-34ab221a6
+      - icon: instagram
+        href: https://www.instagram.com/eleonore.cbn/
+  page-footer:
+    centre
+      @ 2023 [Eleonore Chamboredon]
+      Copyright license
+format:
+  html:
+    theme: 
+      light: quartz
+      dark: vapor
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
+
